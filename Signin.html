@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>My First Website</title>
+        <style> 
+            div {
+                width: 500px;
+                border: 10px rgb(227, 10, 10);
+                padding-top: 20px;
+                padding-left: 30px;
+                padding-right: 0px;
+                padding-bottom: 20px;
+            }
+            nav ul{
+                background-color: rgba(237, 37, 184, 0.944);
+                color: black;
+                padding: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="Mystyles2.css">
+    </head>
+    <body background="img5.jpg">
+        <nav>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+                <li><a href="./Signin.html">Sign in</a></li>
+                <li><a href="./Login.html">Login</a></li>
+            </ul>
+        </nav><br><br>
+        <form action="RegistrationSuccess.html">
+            <div>
+            <section style="padding: 50px; border: 2px solid black;margin: 20px;border-radius: 10px; height:100vh;
+          width: 120%; background-color: white;margin-left: 360px;">
+          <center><h2>Registration Form:</h2></center>
+            FirstName : <input type="text" name="fname" placeholder="First name"><br><br>
+            MiddleName        : <input type="text" name="mname" placeholder="Middle name"><br><br>
+            LastName        : <input type="text" name="lname" placeholder="Last name"><br><br>
+            Password         : <input type="password" name="pass"> <br><br>
+            Confirm Password : <input type="password" name="pass"> <br><br>
+            Date of Birth    : <input type="date" name="bname"><br><br>
+            Age              : <input type="number" name="age" min="18" max="24" step="1" value="18"><br><br>
+            Gender           : <br><input type="radio" name="Gender" value="M">Male <br>
+                                <input type="radio" name="Gender" value="F">Female <br>
+                                <input type="radio" name="Gender" value="O">Others <br><br>
+            Branch           : <select name="Branch">
+                                    <option value="Branch">Branch</option>
+                                    <option value="CSE">CSE</option>
+                                    <option value="CSE-AIML">AIML</option>
+                                    <option value="CSE-DS">DS</option>
+                                    <option value="ECE">ECE</option>
+                                    <option value="EEE">EEE</option>
+                                    <option value="MECH">MECH</option>
+                                    <option value="CIVIL">CIVIL</option>
+                                    <option value="OTHERS">Others</option>
+                               </select><br><br>
+            Language         : <br> <input type="checkbox" name="Telugu">Telugu<br>
+                                    <input type="checkbox" name="Hindi" >Hindi<br>
+                                    <input type="checkbox" name="English" >English<br><br>
+            Mobile no        : <input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number"><br><br>
+            Email Id         : <input list="email" name="mymails">
+                                <datalist id="email">
+                                    <option value="keerthi@gmail.com"></option>
+                                    <option value="keerthijyothi@yahoo.com"></option>
+                                    <option value="keerthipadmanabhuni@hotmail.com"></option>
+                                    <option value="keerthi123@gmail.com"></option>
+                                </datalist><br><br>
+            Address          : <textarea name="Address" cols="35" row="5">
+                                Address.......
+                                </textarea><br><br>
+            <input type="submit"><br><br>
+            </section>
+            </div>
+        <footer>
+            <p>&copy; 2024 JK Fashions. All rights reserved</p>
+        </footer>
+    </body>
+</html>
